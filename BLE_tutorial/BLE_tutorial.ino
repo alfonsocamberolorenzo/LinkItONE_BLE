@@ -12,7 +12,7 @@ GATTSUart uart; //This is the UART profile for the BLE. It's not an standard one
 
 void setup() {
   //Serial initialization
-  Serial.begin(115200);
+  Serial.begin(9600);
   APP_LOG("BLE tutorial starts");
 
   //BT initialization

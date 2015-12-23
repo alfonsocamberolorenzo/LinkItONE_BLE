@@ -58,7 +58,6 @@ boolean GATTSUart::onConnection(const LGATTAddress &addr, boolean connected) {
     _connected = connected;
     APP_LOG("LGATTSUart::onConnection connected [%d], [%x:%x:%x:%x:%x:%x]", _connected, 
         addr.addr[5], addr.addr[4], addr.addr[3], addr.addr[2], addr.addr[1], addr.addr[0]);
-              
     return true;
 }
 //Function for sending messages. It's called onRead because is the action that central device 
