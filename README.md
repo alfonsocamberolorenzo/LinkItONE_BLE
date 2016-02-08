@@ -3,7 +3,7 @@
 Bluetooth Low Energy example utilizes the LinkIt ONE development board’s GATT features to manage BLE connections.
 
 ### Version
-1.0.0
+1.0.1
 
 ### Before you start
 
@@ -13,11 +13,9 @@ Full details on downloading and installing the Arduino IDE and LinkIt ONE SDK th
 
 BLE GATT is defined by three different statements:
 
-* Profiles: pre- defined collection of Services that has been compiled by either the Bluetooth
-2
-SIG or by the peripheral designers.
-* Services: are used to break data up into logic entities, and contain specific chunks of data called characteristics.
-* Characteristics: the lowest level concept in GATT transactions is the Characteristic, which encapsulates a single data point
+* Profiles: GATT Profile specifies the structure in which profile data is exchanged.
+* Services: collection of data and associated behaviors to accomplish a particular function or feature of a device or portions of a device.
+* Characteristics: value used in a service along with properties and configuration information about how the value is accessed and information about how the value is displayed or represented.
 
 ![alt text][gatt]
 
@@ -60,6 +58,6 @@ loop(){
 
 
    [quick start guide]: <http://labs.mediatek.com/site/global/developer_tools/mediatek_linkit/get-started/index.gsp>
-   [gatt]: https://learn.adafruit.com/system/assets/assets/000/013/828/original/microcontrollers_GattStructure.png?1390836057 "GATT structure"
+   [gatt]: https://github.com/alfonsocamberolorenzo/LinkItONE_BLE/blob/master/gatt_scheme.jpg "GATT structure"
 
 
